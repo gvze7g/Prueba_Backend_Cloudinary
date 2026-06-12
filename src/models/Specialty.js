@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const specialtySchema = new mongoose.Schema({
-    specialtyName:{
+    specialityName:{
         type: String,
         trim: true
     },
@@ -14,4 +14,4 @@ const specialtySchema = new mongoose.Schema({
     }
 });
 
-export default mongoose.model('Specialty', specialtySchema);
+export default mongoose.model('Speciality', specialtySchema);

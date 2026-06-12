@@ -5,7 +5,7 @@ const appointmentSchema = new mongoose.Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Patient',
         },
-        specialty_id:{
+        speciality_id:{
             type: mongoose.Schema.Types.ObjectId,
             ref: 'Specialty',
         },
@@ -18,7 +18,7 @@ const appointmentSchema = new mongoose.Schema({
         status:{
             type: String
         },
-        Observations:{
+        observations:{
             type: String
         }
 });
